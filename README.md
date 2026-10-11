@@ -6,7 +6,7 @@ This project demonstrates a complete machine learning workflow, including explor
 
 > **Disclaimer:** This project is intended for educational and research purposes only. It is not a medical device and must not be used for diagnosis or medical decisions.
 
-## 🌍 Available Languages
+##  Available Languages
 
 This repository includes two versions of the Jupyter Notebook, allowing users to explore the project in their preferred language.
 
@@ -17,7 +17,7 @@ Both notebooks cover the same project and machine learning workflow. The main di
 
 Choose the notebook that best suits your language preference.
 
-## 📌 Project Overview
+##  Project Overview
 
 The objective is to build and evaluate machine learning models capable of distinguishing between malignant and benign breast tumors based on numerical diagnostic features.
 
@@ -42,7 +42,7 @@ The project focuses on developing a reproducible workflow while applying good pr
 - Permutation feature importance
 - Unsupervised learning exploration using clustering and PCA
 
-## 📊 Dataset
+##  Dataset
 
 The project uses the **Breast Cancer Wisconsin (Diagnostic)** dataset, available directly through `scikit-learn`.
 
@@ -62,7 +62,7 @@ For cancer-focused evaluation, the target is explicitly encoded as:
 
 This encoding makes it easier to interpret recall, precision, and other classification metrics with malignant cases as the positive class.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python**
 - **Jupyter Notebook**
@@ -72,7 +72,7 @@ This encoding makes it easier to interpret recall, precision, and other classifi
 - **Seaborn**
 - **Scikit-learn**
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 breast-cancer-classification/
@@ -89,7 +89,7 @@ breast-cancer-classification/
 - `breast-cancer-classification.ipynb`: English documentation and analysis.
 - `breast-cancer-classification-fr.ipynb`: French documentation and analysis.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
@@ -138,7 +138,7 @@ Run the notebook cells sequentially to reproduce the analysis, train the models,
 
 You can also use JupyterLab or Visual Studio Code.
 
-## 🧠 Machine Learning Workflow
+##  Machine Learning Workflow
 
 The project follows these main steps:
 
@@ -152,7 +152,7 @@ The project follows these main steps:
 8. **Model interpretation:** examine errors and permutation feature importance.
 9. **Additional exploration:** investigate the dataset using clustering and Principal Component Analysis (PCA).
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 
 The project uses several complementary metrics to assess model performance.
 
@@ -170,7 +170,7 @@ No single metric is sufficient to establish clinical usefulness. In particular, 
 
 Run the notebooks in your own environment to reproduce the results and visualizations. Results may vary depending on software versions, model settings, and execution details.
 
-## ⚠️ Limitations
+##  Limitations
 
 - The dataset is relatively small and comes from a single source.
 - The models have not been externally validated on independent hospitals or populations.
@@ -182,7 +182,7 @@ Run the notebooks in your own environment to reproduce the results and visualiza
 
 This project is a machine learning learning exercise and should not be interpreted as a validated medical diagnostic system.
 
-## 🔮 Possible Future Improvements
+##  Possible Future Improvements
 
 - Evaluate additional classification algorithms.
 - Explore alternative threshold-selection strategies.
@@ -196,7 +196,7 @@ This project is a machine learning learning exercise and should not be interpret
 
 Master's student in Artificial Intelligence, interested in machine learning, data science, and intelligent systems.
 
-## 📚 References
+##  References
 
 - Wolberg, W. H., Street, W. N., & Mangasarian, O. L. — Breast Cancer Wisconsin (Diagnostic) dataset.
 - Scikit-learn documentation: [Breast cancer Wisconsin dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html)
